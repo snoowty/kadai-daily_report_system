@@ -114,6 +114,14 @@ public class Employee {
         this.delete_flag = delete_flag;
     }
 
+    public Integer getAdmin_flag() {
+        return admin_flag;
+    }
+
+    public void setAdmin_flag(Integer admin_flag) {
+        this.admin_flag = admin_flag;
+    }
+
 
 
 }
